@@ -1,0 +1,1 @@
+CRUD de vendas e produtos, que gera balancetes a partir dos dados de um período de tempo. Este projeto tem fins exclusivamente didáticos.

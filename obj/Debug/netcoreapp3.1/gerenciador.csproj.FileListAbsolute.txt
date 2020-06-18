@@ -1,0 +1,13 @@
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/bin/Debug/netcoreapp3.1/gerenciador
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/bin/Debug/netcoreapp3.1/gerenciador.deps.json
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/bin/Debug/netcoreapp3.1/gerenciador.runtimeconfig.json
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/bin/Debug/netcoreapp3.1/gerenciador.runtimeconfig.dev.json
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/bin/Debug/netcoreapp3.1/gerenciador.dll
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/bin/Debug/netcoreapp3.1/gerenciador.pdb
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.csprojAssemblyReference.cache
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.AssemblyInfoInputs.cache
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.AssemblyInfo.cs
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.csproj.CoreCompileInputs.cache
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.dll
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.pdb
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.genruntimeconfig.cache
