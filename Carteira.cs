@@ -6,31 +6,64 @@ namespace gerenciador{
 
     class Carteira
     {
-        double capitalInicial;
-        double ValorPresente;
-        List<double> entradas = new List<double>(); 
-        List<double> saidas = new List<double>();
+        private double valorPresente;
+        
+        private List<double> entradas = new List<double>(); 
+        private List<double> saidas = new List<double>();
         
         public Carteira(double capitalInicial){
-            this.capitalInicial = capitalInicial;
+            this.valorPresente = capitalInicial;
         }
+
         public void adicionarReceita(){
-            Console.WriteLine("\nAdicionar receita");
+            Console.WriteLine("\n#### Adicionar receita ####");
 
             while(true){
-                if(Utilidades.converterEntradaDouble() != null){
-                    entradas.Add()
+                double? valor = Utilidades.converterEntradaDouble();
+
+                if(valor != null){
+                    entradas.Add((double)valor);
+                    valorPresente += (double)valor;
+                    break;
                 }
+
+                Console.WriteLine("Tente novamente.");
             }
 
         }
 
         public void adicionarDespesa(){
-            Console.WriteLine("adicionar despesa");
+            Console.WriteLine("\n#### Adicionar despesa ####");
+
+            while(true){
+                double? valor = Utilidades.converterEntradaDouble();
+
+                if(valor != null){
+                    saidas.Add((double)valor);
+                    valorPresente -= (double)valor;
+                    break;
+                }
+
+                Console.WriteLine("Tente novamente.");
+            }
         }
 
         public void gerarBalancete(){
-            Console.WriteLine("gerar balancete");
+            Console.WriteLine("\n#### Gerar balancete ####");
+
+            Console.WriteLine("\nDespesas:\n");
+            foreach(double i in saidas){
+                Console.WriteLine(i);
+            }
+            
+            
+            Console.WriteLine("\nReceitas:\n");
+            foreach(int i in entradas){
+                Console.WriteLine(i);
+            }
+
+
+            Console.WriteLine("\nSeu saldo é :" + valorPresente + "\n");
         }
     }
 }

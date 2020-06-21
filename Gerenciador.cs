@@ -13,6 +13,7 @@ namespace gerenciador
 
             Console.WriteLine("\nBem vindo ao gerenciador!");
 
+            
             while(opcaoMenu != 4){
                 opcaoMenu = menu(carteira);
             }
