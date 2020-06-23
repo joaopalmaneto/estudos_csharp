@@ -11,3 +11,5 @@
 /home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.dll
 /home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.pdb
 /home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.genruntimeconfig.cache
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/bin/Debug/netcoreapp3.1/Npgsql.dll
+/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/obj/Debug/netcoreapp3.1/gerenciador.csproj.CopyComplete

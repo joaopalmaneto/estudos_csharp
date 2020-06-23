@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace gerenciador
 {
@@ -14,7 +15,7 @@ namespace gerenciador
             Console.WriteLine("\nBem vindo ao gerenciador!");
 
             
-            while(opcaoMenu != 4){
+            while(opcaoMenu != 6){
                 opcaoMenu = menu(carteira);
             }
         }
@@ -26,7 +27,9 @@ namespace gerenciador
             Console.WriteLine("\n1- Adicionar receita");
             Console.WriteLine("2- Adicionar despesa");
             Console.WriteLine("3- Gerar balancete");
-            Console.WriteLine("4- Sair");
+            Console.WriteLine("4- Salvar carteira");
+            Console.WriteLine("5- Carregar carteira");
+            Console.WriteLine("6- Sair");
 
             int? opcao = Utilidades.converterEntradaInt();
 
@@ -41,11 +44,17 @@ namespace gerenciador
                         carteira.gerarBalancete();
                         break;
                     case 4:
+                        carteira.salvarCarteira();
+                        break;
+                    case 5:
+                        break;
+                    case 6:
                         Console.WriteLine("Adios!");
                         return opcao; 
                     case null:
                         Console.WriteLine("Opção inválida. Tente novamente.");
                         break; 
+                        
                     default:
                         Console.WriteLine("Opção inválida. Temte novamente"); 
                         break;

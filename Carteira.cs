@@ -1,5 +1,6 @@
 using System; 
 using System.Collections.Generic;
+using System.IO;
 
 
 namespace gerenciador{
@@ -65,6 +66,37 @@ namespace gerenciador{
 
             Console.WriteLine("\nSeu saldo é :" + valorPresente + "\n");
         }
+    
+        public void salvarCarteira(){
+            String path = $@"{Directory.GetCurrentDirectory()}\memoria\carteira.csv"; 
+
+                using(StreamWriter sw = File.CreateText(path)){
+
+                    sw.WriteLine($"{valorPresente}");
+                    
+                    foreach(int i in entradas){
+                        sw.Write($"{i}");
+
+                        if(i != entradas.Count){
+                            //adiciona virgula apenas se o iterador não estiver na ultima posição, 
+                            //para evitar problemas com o formato csv.
+                            sw.Write(",");
+                        }
+                    }
+
+                    sw.Write(Environment.NewLine);
+
+                    foreach(int i in saidas){
+                        sw.Write($"{i}");
+
+                        if(i != saidas.Count - 1){
+                            sw.Write(",");
+                        }
+                    }
+                }
+
+        }
     }
+
 }
 

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2iNZoz2IaUzh/jysFl/ruZAYzD5rRhJv6zt9cwaBcAcs91D/HsYSbrXNfcqZtXLyKHmNHoPopLv+J1gR0clrGQ==",
+  "dgSpecHash": "d+9Eb0DS6yGUPHKHQzVP+UPeGLSwUUG+C9kN+4WSBhZraAIvlg+0x+4BICftk4qOmYv4LYE5UA2n4bJNa3d7Rg==",
   "success": true,
   "projectFilePath": "/home/jpalma/Documents/cursos/doi/dotnet/gerenciador/gerenciador.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/jpalma/.nuget/packages/npgsql/4.1.3.1/npgsql.4.1.3.1.nupkg.sha512",
+    "/home/jpalma/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
